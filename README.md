@@ -12,7 +12,7 @@ Such events are manually annotated with event-, driver- and environment-related 
 In particular, each safety-critical event in the dataset has been labeled with the **start and the end** of the event and the so-called **precipitating event**, *i.e.*, *"The state of environment or action that began the event sequence under analysis"*, answering the question *"but for this action, would the crash or near-crash have occurred?"*.
 for a total of 64 different annotations.  
 
-By using these annotations as our starting point, we define a set of classes, by aggregating similar SHRP2 annotations and by manually relabelling the ones not falling perfectly into a category, as described in below.
+By using these annotations as our starting point, we define a set of classes, by aggregating similar SHRP2 annotations and by manually relabelling the ones not falling perfectly into a category, as described in below.  
 
 ![unsafe maneuver annotations](img/unsafe-taxonomy.png  "Unsafe maneuver annotations")
 
@@ -22,7 +22,7 @@ The precipitating event label has been grouped, starting from SHRP2 NDS precipit
 Each class is formed by the safety-critical events with the specified precipitating event.
 
 
-####Subject lane change
+#### Subject lane change
 
 ```
 Subject lane change - left, sideswipe threat
@@ -33,7 +33,7 @@ Subject lane change - right in front of vehicle
 Subject lane change - left in front of vehicle
 ```
 
-####Subject turn
+#### Subject turn
 
 ```
 Subject in intersection - turning left
@@ -41,7 +41,7 @@ Subject in intersection - turning right
 Subject making a U-turn
 ```
 
-####Not subject lane change
+#### Not subject lane change
 
 ```
 Other vehicle lane change - left in front of subject
@@ -51,7 +51,7 @@ Other vehicle lane change - right, sideswipe threat
 Other vehicle from entrance to limited access highway
 ```
 
-####Not subject turn
+#### Not subject turn
 
 ```
 Other vehicle entering intersection - turning same direction
@@ -142,7 +142,8 @@ Other vehicle - other
 This vehicle lost control - unknown cause
 ```
 
-As a results, we obtained a dataset with the following annotations:
+As a results, we obtained a dataset with the following annotations:  
+
 ![unsafe maneuver counts](img/counts.png  "Unsafe maneuver counts")
 
 ### Other dataset details
