@@ -14,7 +14,7 @@ for a total of 64 different annotations.
 
 By using these annotations as our starting point, we define a set of classes, by aggregating similar SHRP2 annotations and by manually relabelling the ones not falling perfectly into a category, as described in below.  
 
-![unsafe maneuver annotations](img/unsafe-taxonomy.png =250x "Unsafe maneuver annotations")
+![unsafe maneuver annotations](img/unsafe-taxonomy.png "Unsafe maneuver annotations")
 
 ### Annotations Details
 
@@ -144,7 +144,7 @@ This vehicle lost control - unknown cause
 
 As a results, we obtained a dataset with the following annotations:  
 
-![unsafe maneuver counts](img/counts.png =250x "Unsafe maneuver counts")
+![unsafe maneuver counts](img/counts.png  "Unsafe maneuver counts")
 
 ### Other dataset details
 
