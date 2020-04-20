@@ -22,7 +22,7 @@ The precipitating event label has been grouped, starting from SHRP2 NDS precipit
 Each class is formed by the safety-critical events with the specified precipitating event.
 
 
-####Subject lane change
+#### Subject lane change
 
 ```
 Subject lane change - left, sideswipe threat
@@ -33,7 +33,7 @@ Subject lane change - right in front of vehicle
 Subject lane change - left in front of vehicle
 ```
 
-####Subject turn
+#### Subject turn
 
 ```
 Subject in intersection - turning left
@@ -41,7 +41,7 @@ Subject in intersection - turning right
 Subject making a U-turn
 ```
 
-####Not subject lane change
+#### Not subject lane change
 
 ```
 Other vehicle lane change - left in front of subject
@@ -51,7 +51,7 @@ Other vehicle lane change - right, sideswipe threat
 Other vehicle from entrance to limited access highway
 ```
 
-####Not subject turn
+#### Not subject turn
 
 ```
 Other vehicle entering intersection - turning same direction
