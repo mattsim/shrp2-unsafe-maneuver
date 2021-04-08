@@ -166,10 +166,12 @@ Also, we cropped the GPS/IMU data accordingly.
 
 If you find this dataset useful, please cite this paper:
 ```
-@article{simoncini2020,
+@inproceedings{simoncini2020,
   title={Two-stream neural architecture for unsafe maneuvers classification from dashcam videos and GPS/IMU sensors},
-  author={Simoncini, Matteo and Coimbra de Andrade, Douglas and Salti, Samuele and Taccari, Leonardo and Schoen, Fabio and Sambo, Francesco},
-  journal={TBD},
-  year={TBD}
+  author={Simoncini, Matteo and de Andrade, Douglas Coimbra and Salti, Samuele and Taccari, Leonardo and Schoen, Fabio and Sambo, Francesco},
+  booktitle={2020 IEEE 23rd International Conference on Intelligent Transportation Systems (ITSC)},
+  pages={1--6},
+  year={2020},
+  organization={IEEE}
 }
 ```
